@@ -52,22 +52,6 @@ export function AdminSidebar({ collections }: { collections: Collection[] }) {
                 <div className="flex-none mb-auto">
                   <Logo />
                 </div>
-                <div className="flex-grow min-w-0 my-auto">
-                  {enterpriseSettings && enterpriseSettings.application_name ? (
-                    <div className="w-full">
-                      <HeaderTitle backgroundToggled={true}>
-                      
-                      </HeaderTitle>
-                      {!NEXT_PUBLIC_DO_NOT_USE_TOGGLE_OFF_DANSWER_POWERED && (
-                        <p className="text-xs text-subtle">
-                          Powered by Edge
-                        </p>
-                      )}
-                    </div>
-                  ) : (
-                    <HeaderTitle backgroundToggled={true}></HeaderTitle>
-                  )}
-                </div>
               </div>
             </Link>
           </div>

@@ -115,7 +115,6 @@ export default async function RootLayout({
     return getPageContent(
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="mb-2 flex items-center max-w-[175px]">
-          <HeaderTitle></HeaderTitle>
           <Logo height={40} width={40} />
         </div>
 
@@ -160,7 +159,6 @@ export default async function RootLayout({
     return getPageContent(
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="mb-2 flex items-center max-w-[175px]">
-          <HeaderTitle></HeaderTitle>
           <Logo height={40} width={40} />
         </div>
         <CardSection className="w-full max-w-md">

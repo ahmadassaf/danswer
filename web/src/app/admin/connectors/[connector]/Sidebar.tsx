@@ -80,14 +80,6 @@ export default function Sidebar() {
             <div className="mr-1 my-auto h-6 w-6">
               <Logo height={24} width={24} />
             </div>
-
-            <div>
-              {enterpriseSettings && enterpriseSettings.application_name ? (
-                <HeaderTitle></HeaderTitle>
-              ) : (
-                <HeaderTitle></HeaderTitle>
-              )}
-            </div>
           </div>
 
           <BackButton isAdmin={isAdmin} isCurator={isCurator} user={user} />
