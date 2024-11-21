@@ -83,7 +83,7 @@ export default function Sidebar() {
 
             <div>
               {enterpriseSettings && enterpriseSettings.application_name ? (
-                <HeaderTitle>{enterpriseSettings.application_name}</HeaderTitle>
+                <HeaderTitle>Edgard</HeaderTitle>
               ) : (
                 <HeaderTitle>Edgard</HeaderTitle>
               )}
