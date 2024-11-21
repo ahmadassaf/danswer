@@ -36,14 +36,6 @@ export default function EmbeddingSidebar() {
             <div className="mr-1 my-auto h-6 w-6">
               <Logo height={24} width={24} />
             </div>
-
-            <div>
-              {enterpriseSettings && enterpriseSettings.application_name ? (
-                <HeaderTitle></HeaderTitle>
-              ) : (
-                <HeaderTitle></HeaderTitle>
-              )}
-            </div>
           </div>
 
           <div className="mx-3 mt-6 gap-y-1 flex-col flex gap-x-1.5 items-center items-center">

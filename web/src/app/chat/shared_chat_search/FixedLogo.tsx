@@ -30,22 +30,6 @@ export default function FixedLogo({
           <div className="flex-none my-auto">
             <Logo height={24} width={24} />
           </div>
-          <div className="w-full">
-            {enterpriseSettings && enterpriseSettings.application_name ? (
-              <div>
-                <HeaderTitle backgroundToggled={backgroundToggled}>
-                  
-                </HeaderTitle>
-                {!NEXT_PUBLIC_DO_NOT_USE_TOGGLE_OFF_DANSWER_POWERED && (
-                  <p className="text-xs text-subtle">Powered by Edge</p>
-                )}
-              </div>
-            ) : (
-              <HeaderTitle backgroundToggled={backgroundToggled}>
-                
-              </HeaderTitle>
-            )}
-          </div>
         </div>
       </Link>
       <div className="mobile:hidden fixed left-2.5 bottom-4">
