@@ -56,16 +56,16 @@ export function AdminSidebar({ collections }: { collections: Collection[] }) {
                   {enterpriseSettings && enterpriseSettings.application_name ? (
                     <div className="w-full">
                       <HeaderTitle backgroundToggled={true}>
-                      Edgard
+                      
                       </HeaderTitle>
                       {!NEXT_PUBLIC_DO_NOT_USE_TOGGLE_OFF_DANSWER_POWERED && (
                         <p className="text-xs text-subtle">
-                          Powered by Edgard
+                          Powered by Edge
                         </p>
                       )}
                     </div>
                   ) : (
-                    <HeaderTitle backgroundToggled={true}>Edgard</HeaderTitle>
+                    <HeaderTitle backgroundToggled={true}></HeaderTitle>
                   )}
                 </div>
               </div>
