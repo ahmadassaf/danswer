@@ -70,14 +70,14 @@ export default function LogoType({
           {enterpriseSettings && enterpriseSettings.application_name ? (
             <div className="w-full">
               <HeaderTitle backgroundToggled={toggled}>
-              Edgard
+              
               </HeaderTitle>
               {!NEXT_PUBLIC_DO_NOT_USE_TOGGLE_OFF_DANSWER_POWERED && (
-                <p className="text-xs text-subtle">Powered by Edgard</p>
+                <p className="text-xs text-subtle">Powered by Edge</p>
               )}
             </div>
           ) : (
-            <HeaderTitle backgroundToggled={toggled}>Edgard</HeaderTitle>
+            <HeaderTitle backgroundToggled={toggled}></HeaderTitle>
           )}
         </div>
       </div>

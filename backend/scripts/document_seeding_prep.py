@@ -88,7 +88,7 @@ enterprise_search_2 = (
 
 ai_platform_title = "AI Platform"
 ai_platform = (
-    "Build AI Agents powered by the knowledge and workflows specific to your organization.\n\n"
+    "Build AI Agents Powered by Edgethe knowledge and workflows specific to your organization.\n\n"
     "Beyond Answers\n"
     "Agents enabled by generative AI and reasoning capable models are helping teams to automate their work. "
     "Danswer is helping teams make it happen. Danswer provides out of the box user chat sessions, attaching custom tools, "
