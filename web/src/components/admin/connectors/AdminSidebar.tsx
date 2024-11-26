@@ -61,9 +61,7 @@ export function AdminSidebar({ collections }: { collections: Collection[] }) {
             <button className="text-sm flex items-center block w-52 py-2.5 flex px-2 text-left text-text-back-button bg-background-back-button hover:bg-opacity-80 cursor-pointer rounded">
               <BackIcon className="my-auto" size={18} />
               <p className="ml-1 break-words line-clamp-2 ellipsis leading-none">
-                Back to{" "}
-                {combinedSettings.enterpriseSettings?.application_name ||
-                  "Danswer"}
+                Back
               </p>
             </button>
           </Link>
@@ -106,7 +104,7 @@ export function AdminSidebar({ collections }: { collections: Collection[] }) {
           key={"danswerVersion"}
         >
           <h2 className="text-xs text-text w-52 font-medium pb-2">
-            Danswer version: {combinedSettings.webVersion}
+            version: {combinedSettings.webVersion}
           </h2>
         </div>
       )}

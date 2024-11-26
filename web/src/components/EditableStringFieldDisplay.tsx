@@ -83,7 +83,10 @@ export function EditableStringFieldDisplay({
         onKeyDown={handleKeyDown}
         className={cn(
           textClassName,
+<<<<<<< HEAD
           "text-3xl font-bold text-text-800",
+=======
+>>>>>>> 64dcec02 (cleaned up new slack bot creation)
           "user-text",
           isEditing ? "block" : "hidden"
         )}
@@ -92,11 +95,15 @@ export function EditableStringFieldDisplay({
       {!isEditing && (
         <span
           onClick={() => isEditable && setIsEditing(true)}
+<<<<<<< HEAD
           className={cn(
             textClassName,
             "text-3xl font-bold text-text-800",
             "cursor-pointer user-text"
           )}
+=======
+          className={cn(textClassName, "cursor-pointer user-text")}
+>>>>>>> 64dcec02 (cleaned up new slack bot creation)
           style={{ fontSize: `${scale}rem` }}
         >
           {value}
